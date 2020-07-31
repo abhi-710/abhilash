@@ -1,0 +1,10 @@
+def birthday(s, d, m):
+    summ=0
+    for i in range(len(s)):
+        if sum(s[i:i+m])==d:
+            summ+=1
+
+    return(summ)
+    
+
+
